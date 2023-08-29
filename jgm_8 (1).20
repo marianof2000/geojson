@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="ar" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="ar" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ar" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ar"> <!--<![endif]-->
+<head>
+<!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2019-12-02T16:58:12/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-12-02T16:58:12/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2019-12-02T16:58:12/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-12-02T16:58:12/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/gobar_css/:version:2019-12-02T17:16:31/:bundle:gobar_style.css;table.css" />
+<meta charset="utf-8" />
+<meta name="generator" content="ckan 2.7.6" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KMSJQ8"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KMSJQ8');</script>
+
+<meta property="og:url" content="https://datos.gob.ar/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Datos Argentina">
+<meta property="og:site_name" content="Datos Argentina">
+<meta property="og:description" content="Ponemos a tu alcance datos públicos en formatos abiertos. Estos datos son tuyos.">
+<meta property="og:image" content="https://datos.gob.ar/user_images/datosgobar.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="2400">
+<meta property="og:image:height" content="1260">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site:id" content="@datosgobar" />
+<meta name="twitter:image:src" content="https://datos.gob.ar/user_images/datosgobar.jpg">
+<meta name="twitter:title" content="Datos Argentina | Asentamientos (GeoJson)">
+<meta name="twitter:description" content="Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado según datos del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC), del Instituto Geográfico Nacional (IGN) y de otros organismos en formato GeoJSON.">
+<title>
+    Datos Argentina - Asentamientos (GeoJson)</title>
+<link rel="shortcut icon" href="/favicon.ico" />
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '0', 'auto', {});
+     
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+</head>
+<body data-site-root="https://datos.gob.ar/" data-locale-root="https://datos.gob.ar/ar/">
+<style type="text/css">
+        div.background-overlay{background-color:rgba(0,0,0,0)!important;}
+    </style>
+<div class="footer-down">
+<div id="header" class="container-fluid">
+<div class="restricted-max-width">
+<div id="header-spacing" class="col-xs-12 col-sm-10 col-sm-offset-1">
+<div class="col-xs-12 col-sm-5 no-padding logo-header">
+<div class="logo-and-xs-icon">
+<i class="icon-reorder fa fa-bars" aria-hidden="true"></i>
+<a href="/ar/">
+<img src="/user_images/datosgobar-logo.svg" alt="/ar/" class="logo-ministerio">
+</a>
+</div>
+<div class="xs-navbar hidden">
+<div class="navbar-link">
+<a href="/ar/dataset">
+DATASETS
+</a>
+</div>
+<hr>
+<div class="navbar-link">
+<a href="/ar/series/api">
+SERIES
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/organizaciones">
+ORGANIZACIONES
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/apis">
+APIs
+</a>
+</div>
+<div class="navbar-link dropdown-navbar-link">
+ACERCA
+</div>
+<div class="about-dropdown dropdown-navbar hidden">
+<div class="navbar-link">
+<a href="/ar/acerca/seccion/publica-datos">
+Publicá datos
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/acerca/seccion/herramientas">
+Herramientas
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/acerca/seccion/indicadores">
+Indicadores
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/acerca/seccion/marco-legal">
+Marco legal
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/acerca/seccion/glosario">
+Glosario
+</a>
+</div>
+</div>
+<hr><div class="navbar-link dropdown-navbar-link">
+<span class="username"></span> <svg class="user-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.46 128.46"><path d="M128.46,64.23A63.15,63.15,0,0,0,119.84,32,64.21,64.21,0,0,0,96.48,8.62,63.12,63.12,0,0,0,64.23,0,63.12,63.12,0,0,0,32,8.62,64.2,64.2,0,0,0,8.62,32,63.15,63.15,0,0,0,0,64.23,63.15,63.15,0,0,0,8.62,96.48a64.76,64.76,0,0,0,9.82,12.86l-.16.27a70.09,70.09,0,0,0,9.2,7.34c1.46,1,3,2,4.51,2.91a63.17,63.17,0,0,0,32.25,8.62,63.17,63.17,0,0,0,32.25-8.62,66.19,66.19,0,0,0,7-4.74,72.41,72.41,0,0,0,6.61-5.51l-.14-.23a64.76,64.76,0,0,0,9.85-12.89A63.15,63.15,0,0,0,128.46,64.23Zm-20.52,41.89C101.56,96.56,88,81,66.73,79.8a26.25,26.25,0,0,0,16.88-7.9,26.44,26.44,0,0,0,8-19.41,26.44,26.44,0,0,0-8-19.4,26.42,26.42,0,0,0-19.4-8,26.41,26.41,0,0,0-19.4,8,26.44,26.44,0,0,0-8,19.4,26.44,26.44,0,0,0,8,19.41,26.25,26.25,0,0,0,16.87,7.9C40.48,81,26.88,96.52,20.49,106.09a61.14,61.14,0,0,1-8.66-11.48A59.48,59.48,0,0,1,3.71,64.23a59.48,59.48,0,0,1,8.11-30.37,60.53,60.53,0,0,1,22-22A59.45,59.45,0,0,1,64.23,3.71,59.46,59.46,0,0,1,94.6,11.83a60.54,60.54,0,0,1,22,22,59.48,59.48,0,0,1,8.11,30.37,59.48,59.48,0,0,1-8.11,30.37A61.14,61.14,0,0,1,107.94,106.12Z" style="fill:#0695d6" /></svg>
+</div>
+<div class="dropdown-navbar hidden">
+<div class="navbar-link">
+<a href="/ar/configurar/mi_cuenta">
+MI CUENTA
+</a>
+</div><div class="navbar-link">
+<a href="https://datosgobar.github.io/portal-andino/quickstart/" target="_blank">
+AYUDA
+</a>
+</div>
+<div class="navbar-link">
+<a href="/ar/logout">
+SALIR
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-7 no-padding header-links"><a class="header-link" href="/ar/dataset">Datasets</a><a class="header-link" href="/ar/series/api">Series</a><a class="header-link" href="/ar/organizaciones">Organizaciones</a><a class="header-link" href="/ar/apis">
+APIs
+</a>
+<span class="header-link dropdown">
+Acerca <span class="caret"></span>
+<ul class="about-dropdown" style="bottom:-120px;">
+<a href="/ar/acerca/seccion/publica-datos">
+<li>Publicá datos</li>
+</a>
+<a href="/ar/acerca/seccion/herramientas">
+<li>Herramientas</li>
+</a>
+<a href="/ar/acerca/seccion/indicadores">
+<li>Indicadores</li>
+</a>
+<a href="/ar/acerca/seccion/marco-legal">
+<li>Marco legal</li>
+</a>
+<a href="/ar/acerca/seccion/glosario">
+<li>Glosario</li>
+</a>
+</ul>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="resource-container container-fluid">
+<div class="restricted-max-width">
+<div class="resource col-xs-12 col-md-10 col-md-offset-1">
+<div class="col-md-12 back-to-pkg">
+<a href="/ar/dataset">Datos Argentina</a> / <a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos">Dataset</a> / Recurso
+</div>
+<div class="col-md-10 col-xs-12 title">
+<h1>Asentamientos (GeoJson)</h1>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado según datos del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC), del Instituto Geográfico Nacional (IGN) y de otros organismos en formato GeoJSON.</p>
+</div>
+<div class="col-md-2 col-xs-12 resource-actions">
+<a class="btn btn-green btn-block" href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.32/download/asentamientos.geojson">DESCARGAR</a>
+</div>
+<div class="resource-previsualization hidden-xs hidden-sm" style="display: None">
+<div class="resource-additional-info col-xs-12 col-md-12 row" style="border-bottom: 0; width: 103%; margin-bottom: 20px; margin-top: 30px;">
+<h2 class="title-h" style="padding-bottom: 0 !important;">Previsualización</h2>
+</div>
+<div class="data-preview hidden-xs hidden-sm col-md-12">
+</div>
+</div>
+<div class="hidden-xs hidden-sm attributes-table">
+</div>
+<div class="resource-additional-info col-xs-12 col-md-12 row" style="width: 102% !important;">
+<h2 class="title-h">Información adicional</h2>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Responsable
+</div>
+<div class="col-xs-8 value">
+Jefatura de Gabinete de Ministros. Secretaría de Innovación Pública. Subsecretaría de Servicios y País Digital
+</div>
+</div>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Formato
+</div>
+<div class="col-xs-8 value">
+<span class="label" data-format="geojson">geojson</span>
+</div>
+</div>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Temas
+</div>
+Gobierno y sector público
+Regiones y ciudades
+</div>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Frecuencia de actualización
+</div>
+<div class="col-xs-8 value">
+Semanalmente
+</div>
+</div>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Fecha de creación
+</div>
+<div class="col-xs-8 value">
+28 de أيار de 2019
+</div>
+</div>
+<div class="resource-additional col-xs-12">
+<div class="col-xs-4 key">
+Último cambio
+</div>
+<div class="col-xs-8 value">
+غير معروف
+</div>
+</div>
+</div>
+<div class="resource-alternative-packages col-xs-12 col-md-12 row" style="border-bottom: 0; width: 103%;">
+<h2 class="title-h">Otros recursos de este dataset</h2>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.1">
+<button>CONSULTAR</button>
+</a>
+<a href="https://apis.datos.gob.ar/georef/">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.1">
+<div class="package-info">
+<h3>API Georef</h3>
+<p>Accedé a la documentación de la API para normalizar unidades territoriales, provincias,departamentos, municipios y calles.</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.2">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.2/download/provincias.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.2">
+<div class="package-info">
+<h3>Provincias (JSON)</h3>
+<p>Lista de las entidades que representan la división político territorial de primer orden de la República Argentina en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.3">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.3/download/departamentos.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.3">
+<div class="package-info">
+<h3>Departamentos (JSON)</h3>
+<p>Lista de las entidades que representan la división político administrativa de segundo orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.4">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.4/download/municipios.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.4">
+<div class="package-info">
+<h3>Municipios (JSON)</h3>
+<p>Lista de las entidades que representan la división político administrativa de tercer orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.5">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.27/download/localidades-censales.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.5">
+<div class="package-info">
+<h3>Localidades censales (JSON)</h3>
+<p>Listado de las localidades censales según la base de datos censales del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC) en formato JSON.</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.6">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.28/download/asentamientos.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.6">
+<div class="package-info">
+<h3>Asentamientos (JSON)</h3>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado según datos del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC),...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.7">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.5/download/localidades.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.7">
+<div class="package-info">
+<h3>Localidades (JSON)</h3>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la República...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.8">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.6/download/calles.json">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.8">
+<div class="package-info">
+<h3>Calles (JSON)</h3>
+<p>Listado de calles de las localidades censales en base al Nomenclador Nacional de Vías de Circulación generado por el Instituto Nacional de Estadistica...</p>
+</div>
+<div class="pkg-file-img" data-format="json">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>json</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.9">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.7/download/provincias.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.9">
+<div class="package-info">
+<h3>Provincias (CSV)</h3>
+<p>Lista de las entidades que representan la división político territorial de primer orden de la República Argentina en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.10">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.8/download/departamentos.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.10">
+<div class="package-info">
+<h3>Departamentos (CSV)</h3>
+<p>Lista de las entidades que representan la división político administrativa de segundo orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.11">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.9/download/municipios.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.11">
+<div class="package-info">
+<h3>Municipios (CSV)</h3>
+<p>Lista de las entidades que representan la división político administrativa de tercer orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.12">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.29/download/localidades-censales.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.12">
+<div class="package-info">
+<h3>Localidades censales (CSV)</h3>
+<p>Listado de las localidades censales según la base de datos censales del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC) en formato CSV.</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.13">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.30/download/asentamientos.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.13">
+<div class="package-info">
+<h3>Asentamientos (CSV)</h3>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado según datos del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC),...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.14">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.10/download/localidades.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.14">
+<div class="package-info">
+<h3>Localidades (CSV)</h3>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la República...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.15">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.11/download/calles.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.15">
+<div class="package-info">
+<h3>Calles (CSV)</h3>
+<p>Listado de calles de las localidades censales en base al Nomenclador Nacional de Vías de Circulación generado por el Instituto Nacional de Estadistica...</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.16">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.12/download/provincias.geojson">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.16">
+<div class="package-info">
+<h3>Provincias (GeoJSON)</h3>
+<p>Lista de las entidades que representan la división político territorial de primer orden de la República Argentina en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.17">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.13/download/departamentos.geojson">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.17">
+<div class="package-info">
+<h3>Departamentos (GeoJSON)</h3>
+<p>Lista de las entidades que representan la división político administrativa de segundo orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.18">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.14/download/municipios.geojson">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.18">
+<div class="package-info">
+<h3>Municipios (GeoJSON)</h3>
+<p>Lista de las entidades que representan la división político administrativa de tercer orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.19">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.31/download/localidades-censales.geojson">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.19">
+<div class="package-info">
+<h3>Localidades censales (GeoJSON)</h3>
+<p>Listado de las localidades censales según la base de datos censales del INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS (INDEC) en formato GeoJSO...</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.21">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.15/download/localidades.geojson">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.21">
+<div class="package-info">
+<h3>Localidades (GeoJSON)</h3>
+<p>Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la República...</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.22">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.16/download/sinonimos-nombres.txt">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.22">
+<div class="package-info">
+<h3>Listado de sinónimos para API Georef</h3>
+<p>Listado de sinónimos para API Georef (Analizador Elasticsearch) en formato de texto.</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.23">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.17/download/terminos-excluyentes-nombres.txt">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.23">
+<div class="package-info">
+<h3>Listado de términos excluyentes para API Georef</h3>
+<p>Listado de términos excluyentes para API Georef (Analizador Elasticsearch) en formato de texto.</p>
+</div>
+<div class="pkg-file-img" data-format="otro">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>otro</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.24">
+<button>CONSULTAR</button>
+</a>
+<a href="https://apis.datos.gob.ar/management/indicadores/indicadores-georef.csv">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.24">
+<div class="package-info">
+<h3>Georef (API): indicadores de consumo</h3>
+<p>Indicadores de seguimiento del consumo de la API de Georef.</p>
+</div>
+<div class="pkg-file-img" data-format="csv">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>csv</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.25">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.37/download/analytics-georef.zip">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.25">
+<div class="package-info">
+<h3>Georef (API): consultas realizadas</h3>
+<p>Base de consultas realizadas a la API de Georef.</p>
+</div>
+<div class="pkg-file-img" data-format="zip">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>zip</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.26">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.34/download/provincias.zip">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.26">
+<div class="package-info">
+<h3>Provincias (SHP)</h3>
+<p>Lista de las entidades que representan la división político territorial de primer orden de la República Argentina en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="zip">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>zip</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.27">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.35/download/departamentos.zip">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.27">
+<div class="package-info">
+<h3>Departamentos (SHP)</h3>
+<p>Lista de las entidades que representan la división político administrativa de segundo orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="zip">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>zip</p>
+</div>
+</a>
+</div>
+<div class="pkg-container">
+<div class="pkg-actions">
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.28">
+<button>CONSULTAR</button>
+</a>
+<a href="https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.36/download/municipios.zip">
+<button>DESCARGAR</button>
+</a>
+</div>
+<a href="/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.28">
+<div class="package-info">
+<h3>Municipios (SHP)</h3>
+<p>Lista de las entidades que representan la división político administrativa de tercer orden de la República Argentina, en base a datos del Instituto...</p>
+</div>
+<div class="pkg-file-img" data-format="zip">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 75" style="enable-background:new 0 0 60 75;" xml:space="preserve">
+<path class="st0" d="M7.5,0C3.4,0,0,3.4,0,7.5l0,60C0,71.6,3.3,75,7.5,75h45c4.1,0,7.5-3.4,7.5-7.5v-45L37.5,0H7.5z M36.8,23.2V2.6
+	l20.6,20.6H36.8z" />
+</svg>
+<p>zip</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" class="container-fluid">
+<div class="restricted-max-width">
+<div id="footer-spacer" class="col-xs-10 col-xs-offset-1">
+<div class="footer-section logo col-xs-12 col-sm-6 col-md-6">
+<p>
+<a href="https://twitter.com/datosgobar" target="_blank" class="social-link">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/datosgobar" target="_blank" class="social-link">
+<i class="fa fa-github-alt" aria-hidden="true"></i>
+</a>
+<a href="https://medium.com/datos-argentina" target="_blank" class="social-link">
+<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+</a>
+</p>
+<div class="logo-edit-container">
+<a href="https://datos.gob.ar/" target="_blank">
+<img src="/user_images/logo_primero_la_gente_footer.png" alt="http://datos.gob.ar/" class="logo-ministerio">
+</a>
+</div>
+</div>
+<div class="footer-section links-internos hidden-xs hidden-sm col-md-3">
+<p><a href="/ar/acerca/seccion/Public%C3%A1%20datos">Publicá datos</a></p>
+<p><a href="/ar/acerca/seccion/Herramientas">Herramientas</a></p>
+<p><a href="/ar/acerca/seccion/Indicadores">Indicadores</a></p>
+<p><a href="/ar/acerca/seccion/Marco%20legal">Marco legal</a></p>
+<p><a href="/ar/acerca/seccion/Glosario">Glosario</a></p>
+</div>
+<div class="footer-section links-externos col-xs-12 col-sm-6 col-md-3">
+<p><a href="/cdn-cgi/l/email-protection#6d090c19021e0c1f0a08031904030c2d07080b0c19181f0c430a020f430c1f">Contactanos</a></p>
+<p class="ckan-link">
+Desarrollado por<br><a href="https://github.com/datosgobar/distribuible.datos.gob.ar" target="_blank">Andino</a> con <a href="http://ckan.org/" target="_blank"><span class="ckan-name">CKAN</span></a>
+</p>
+<p class="ckan-link">
+Versión: 2.6.3
+</p>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/ld+json">
+            {
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.8",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de calles de las localidades censales en base al Nomenclador Nacional de V\u00edas de Circulaci\u00f3n generado por el Instituto Nacional de Estadistica y Censos (INDEC) en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Calles (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.6/download/calles.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/organization/f917ad65-28ea-42a9-81ae-61a2bb8f58d0",
+            "@type": "schema:Organization",
+            "schema:contactPoint": {
+                "@id": "_:N8e8be0dd74f8428fb44e3c6630552368"
+            },
+            "schema:name": " Jefatura de Gabinete de Ministros"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.4",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de tercer orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN). Incluye comunas, juntas vecinales y dem\u00e1s formas de gobierno local en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Municipios (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.4/download/municipios.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.5",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de las localidades censales seg\u00fan la base de datos censales del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC) en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Localidades censales (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.27/download/localidades-censales.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.6",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado seg\u00fan datos del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC), del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Asentamientos (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.28/download/asentamientos.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.7",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la Rep\u00fablica Argentina (BAHRA) 2014 v1.1 en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Localidades (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.5/download/localidades.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.1",
+            "@type": "schema:DataDownload",
+            "schema:description": "Acced\u00e9 a la documentaci\u00f3n de la API para normalizar unidades territoriales, provincias,departamentos, municipios y calles.",
+            "schema:name": "API Georef",
+            "schema:url": "https://apis.datos.gob.ar/georef/"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.2",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico territorial de primer orden de la Rep\u00fablica Argentina en base a datos del Instituto Geogr\u00e1fico Nacional (IGN).Incluye las 23 provincias y la Ciudad Aut\u00f3noma de Buenos Aires (CABA) en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Provincias (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.2/download/provincias.json"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.3",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de segundo orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN). Incluye partidos y comunas en formato JSON.",
+            "schema:encodingFormat": "JSON",
+            "schema:name": "Departamentos (JSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.3/download/departamentos.json"
+        },
+        {
+            "@id": "_:N15c2aa14621f46d1a0e5a6eeb90627f8",
+            "@type": "schema:GeoShape",
+            "schema:polygon": "ARG"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.24",
+            "@type": "schema:DataDownload",
+            "schema:description": "Indicadores de seguimiento del consumo de la API de Georef.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Georef (API): indicadores de consumo",
+            "schema:url": "https://apis.datos.gob.ar/management/indicadores/indicadores-georef.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8",
+            "@type": "schema:Dataset",
+            "schema:dateModified": [
+                "2020-01-29T00:00:00",
+                "2020-01-29"
+            ],
+            "schema:datePublished": "2018-08-08T00:00:00",
+            "schema:description": "Documentaci\u00f3n de la API de normalizaci\u00f3n de datos geogr\u00e1ficos, junto con los datos utilizados por el servicio. Los conjuntos de datos de provincias, departamentos, municipios, localidades y vias de circulaci\u00f3n son elaborados por la Direcci\u00f3n Nacional de Datos e Informaci\u00f3n P\u00fablica en base a datos publicados por IGN, BAHRA e INDEC.",
+            "schema:distribution": [
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.10"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.12"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.3"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.7"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.28"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.6"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.4"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.27"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.21"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.26"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.23"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.17"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.22"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.9"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.2"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.24"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.20"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.11"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.25"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.13"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.1"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.15"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.19"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.14"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.18"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.8"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.5"
+                },
+                {
+                    "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.16"
+                }
+            ],
+            "schema:inLanguage": "SPA",
+            "schema:keywords": [
+                "localidades",
+                "normalizacion",
+                "Gobierno y sector p\u00fablico",
+                "georef",
+                "Regiones y ciudades",
+                "unidades territoriales",
+                "provincias",
+                "departamentos",
+                "municipios"
+            ],
+            "schema:name": "Servicio de normalizaci\u00f3n de datos geogr\u00e1ficos",
+            "schema:publisher": {
+                "@id": "https://datos.gob.ar/organization/f917ad65-28ea-42a9-81ae-61a2bb8f58d0"
+            },
+            "schema:spatialCoverage": {
+                "@id": "_:Nb209662ac71145cfab939f03449f7358"
+            }
+        },
+        {
+            "@id": "_:N8e8be0dd74f8428fb44e3c6630552368",
+            "@type": "schema:ContactPoint",
+            "schema:contactType": "customer service",
+            "schema:email": "datosargentina@jefatura.gob.ar",
+            "schema:name": "Secretar\u00eda de Innovaci\u00f3n P\u00fablica. Subsecretar\u00eda de Servicios y Pa\u00eds Digital.",
+            "schema:url": "https://datos.gob.ar"
+        },
+        {
+            "@id": "_:Nb209662ac71145cfab939f03449f7358",
+            "@type": "schema:Place",
+            "schema:geo": {
+                "@id": "_:N15c2aa14621f46d1a0e5a6eeb90627f8"
+            }
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.18",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de tercer orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos. Incluye comunas, juntas vecinales y dem\u00e1s formas de gobierno local en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Municipios (GeoJSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.14/download/municipios.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.19",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de las localidades censales seg\u00fan la base de datos censales del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC) en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Localidades censales (GeoJSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.31/download/localidades-censales.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.16",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico territorial de primer orden de la Rep\u00fablica Argentina en base a datos del Instituto Geogr\u00e1fico Nacional. Incluye las 23 provincias y la Ciudad Aut\u00f3noma de Buenos Aires (CABA) en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Provincias (GeoJSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.12/download/provincias.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.17",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de segundo orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Departamentos (GeoJSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.13/download/departamentos.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.14",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la Rep\u00fablica Argentina (BAHRA) 2014 v1.1 en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Localidades (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.10/download/localidades.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.15",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de calles de las localidades censales en base al Nomenclador Nacional de V\u00edas de Circulaci\u00f3n generado por el Instituto Nacional de Estadistica y Censos (INDEC) en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Calles (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.11/download/calles.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.12",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de las localidades censales seg\u00fan la base de datos censales del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC) en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Localidades censales (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.29/download/localidades-censales.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.13",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado seg\u00fan datos del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC), del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Asentamientos (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.30/download/asentamientos.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.10",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de segundo orden de la Rep\u00fablica Argentina, en base a datos del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Departamentos (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.8/download/departamentos.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.11",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de tercer orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos. Incluye comunas, juntas vecinales y dem\u00e1s formas de gobierno local en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Municipios (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.9/download/municipios.csv"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.28",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de tercer orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos. Incluye comunas, juntas vecinales y dem\u00e1s formas de gobierno local en formato SHP.",
+            "schema:encodingFormat": "ZIP",
+            "schema:name": "Municipios (SHP)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.36/download/municipios.zip"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.23",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de t\u00e9rminos excluyentes para API Georef (Analizador Elasticsearch) en formato de texto.",
+            "schema:encodingFormat": "TXT",
+            "schema:name": "Listado de t\u00e9rminos excluyentes para API Georef",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.17/download/terminos-excluyentes-nombres.txt"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.22",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de sin\u00f3nimos para API Georef (Analizador Elasticsearch) en formato de texto.",
+            "schema:encodingFormat": "TXT",
+            "schema:name": "Listado de sin\u00f3nimos para API Georef",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.16/download/sinonimos-nombres.txt"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.21",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado), basado en la Base de Asentamientos Humanos de la Rep\u00fablica Argentina (BAHRA) 2014 v1.1 en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Localidades (GeoJSON)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.15/download/localidades.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.20",
+            "@type": "schema:DataDownload",
+            "schema:description": "Listado de los asentamientos humanos (localidad censal o paraje, sitio edificado seg\u00fan datos del INSTITUTO NACIONAL DE ESTAD\u00cdSTICA Y CENSOS (INDEC), del Instituto Geogr\u00e1fico Nacional (IGN) y de otros organismos en formato GeoJSON.",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "Asentamientos (GeoJson)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.32/download/asentamientos.geojson"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.27",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico administrativa de segundo orden de la Rep\u00fablica Argentina,  en base a datos del Instituto Geogr\u00e1fico Nacional (IGN), del Instituto Nacional de Estad\u00edstica y Censos y de otros organismos en formato SHP.",
+            "schema:encodingFormat": "ZIP",
+            "schema:name": "Departamentos (SHP)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.35/download/departamentos.zip"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.26",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico territorial de primer orden de la Rep\u00fablica Argentina en base a datos del Instituto Geogr\u00e1fico Nacional y del Instituto Nacional de Estad\u00edstica y Censos. Incluye las 23 provincias y la Ciudad Aut\u00f3noma de Buenos Aires (CABA) en formato SHP.",
+            "schema:encodingFormat": "ZIP",
+            "schema:name": "Provincias (SHP)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.34/download/provincias.zip"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.25",
+            "@type": "schema:DataDownload",
+            "schema:description": "Base de consultas realizadas a la API de Georef.",
+            "schema:encodingFormat": "ZIP",
+            "schema:name": "Georef (API): consultas realizadas",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.37/download/analytics-georef.zip"
+        },
+        {
+            "@id": "https://datos.gob.ar/dataset/jgm_8/resource/jgm_8.9",
+            "@type": "schema:DataDownload",
+            "schema:description": "Lista de las entidades que representan la divisi\u00f3n pol\u00edtico territorial de primer orden de la Rep\u00fablica Argentina en base a datos del Instituto Geogr\u00e1fico Nacional. Incluye las 23 provincias y la Ciudad Aut\u00f3noma de Buenos Aires (CABA) en formato CSV.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Provincias (CSV)",
+            "schema:url": "https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.7/download/provincias.csv"
+        }
+    ]
+}
+            </script>
+</div>
+<div class="js-hide" data-module="google-analytics" data-module-googleanalytics_resource_prefix>
+</div>
+<script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-12-02T16:58:12/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-12-02T16:58:12/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-12-02T16:58:12/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2019-12-02T16:58:24/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/fanstatic/gobar_js/:version:2019-12-02T17:16:31/:bundle:header.js;console_message.js;replace_svg.js;package/resource/resource_view.js;libs/bootstrap_scripts.js;libs/clamp.js;libs/BootstrapMenu.js;forms/custom_popup.js"></script></body>
+</html>
